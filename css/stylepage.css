@@ -153,6 +153,9 @@ ol, ul, li, a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+    @media screen and (max-width: 997.98px) {
+      .container header {
+        padding: 0px 2vw; } }
     .container header nav {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -189,6 +192,9 @@ ol, ul, li, a {
           -webkit-box-align: center;
           -ms-flex-align: center;
           align-items: center; }
+          @media screen and (max-width: 575.98px) {
+            .container header nav ul li {
+              display: none !important; } }
           .container header nav ul li a {
             font-family: "Gilroy", sans-serif;
             font-style: normal;
@@ -198,6 +204,9 @@ ol, ul, li, a {
             color: #73738D; }
         .container header nav ul li:nth-child(2) {
           margin: 0px 27px; }
+          @media screen and (max-width: 997.98px) {
+            .container header nav ul li:nth-child(2) {
+              margin: 0px 2vw; } }
         .container header nav ul li:nth-child(4) {
           margin-left: 27px; }
         .container header nav ul li:last-child {
@@ -211,6 +220,9 @@ ol, ul, li, a {
           -webkit-transition: 1.2s;
           -o-transition: 1.2s;
           transition: 1.2s; }
+          @media screen and (max-width: 575.98px) {
+            .container header nav ul li:last-child {
+              display: block !important; } }
           .container header nav ul li:last-child a {
             color: #1943EF;
             font-family: "Gilroy", sans-serif;
@@ -244,6 +256,9 @@ ol, ul, li, a {
             transition: 1.2s; }
   .container main {
     padding: 0px 103.96px 0px 101.19px; }
+    @media screen and (max-width: 997.98px) {
+      .container main {
+        padding: 0px 2vw; } }
     .container main .container-main-info {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -257,6 +272,13 @@ ol, ul, li, a {
       flex-direction: row;
       margin-top: 64.56px;
       margin-bottom: 136.26px; }
+      @media screen and (max-width: 997.98px) {
+        .container main .container-main-info {
+          margin-top: 5vw;
+          margin-bottom: 10vw; }
+          .container main .container-main-info .container-img-info {
+            width: 20vw;
+            margin-left: 2vw !important; } }
       .container main .container-main-info .container-content-info, .container main .container-main-info .container-img-info {
         max-height: 458.74px; }
       .container main .container-main-info .container-content-info {
@@ -450,7 +472,8 @@ ol, ul, li, a {
         border: 2px solid #F5AC18;
         border-radius: 50%;
         width: 60px;
-        height: auto; }
+        height: auto;
+        filter: blur(2px); }
 @-webkit-keyframes animatedx1 {
   from {
     left: -400px; }
@@ -469,7 +492,8 @@ ol, ul, li, a {
         border: 2px solid #26C296;
         border-radius: 50%;
         width: 80px;
-        height: auto; }
+        height: auto;
+        filter: blur(2px); }
 @-webkit-keyframes animatedx2 {
   from {
     left: -350px; }
@@ -488,7 +512,8 @@ ol, ul, li, a {
         border: 2px solid #1943EF;
         border-radius: 50%;
         width: 50px;
-        height: auto; }
+        height: auto;
+        filter: blur(2px); }
 @-webkit-keyframes animatedx3 {
   from {
     left: -300px; }
@@ -507,7 +532,8 @@ ol, ul, li, a {
         border: 3px solid #F26A36;
         border-radius: 50%;
         width: 40px;
-        height: auto; }
+        height: auto;
+        filter: blur(2px); }
 @-webkit-keyframes animatedx3 {
   from {
     left: -250px; }
@@ -516,6 +542,66 @@ ol, ul, li, a {
 @keyframes animatedx3 {
   from {
     left: -250px; }
+  to {
+    left: 120%; } }
+      .container main .container-users-about-us .x5 {
+        position: absolute;
+        top: 200px;
+        -webkit-animation: animatedx3 22s linear infinite;
+        animation: animatedx3 22s linear infinite;
+        border: 2px solid #F26A36;
+        border-radius: 50%;
+        width: 50px;
+        height: auto;
+        filter: blur(2px); }
+@-webkit-keyframes animatedx5 {
+  from {
+    left: -100px; }
+  to {
+    left: 120%; } }
+@keyframes animatedx5 {
+  from {
+    left: -100px; }
+  to {
+    left: 120%; } }
+      .container main .container-users-about-us .x6 {
+        position: absolute;
+        top: 140px;
+        -webkit-animation: animatedx7 30s linear infinite;
+        animation: animatedx7 30s linear infinite;
+        border: 2px solid #F5AC18;
+        border-radius: 50%;
+        width: 50px;
+        height: auto;
+        filter: blur(2px); }
+@-webkit-keyframes animatedx7 {
+  from {
+    left: -200px; }
+  to {
+    left: 120%; } }
+@keyframes animatedx7 {
+  from {
+    left: -200px; }
+  to {
+    left: 120%; } }
+      .container main .container-users-about-us .x7 {
+        position: absolute;
+        top: 300px;
+        -webkit-animation: animatedx6 30s linear infinite;
+        animation: animatedx6 30s linear infinite;
+        border: 2px solid #F5AC18;
+        border-radius: 50%;
+        width: 50px;
+        height: auto;
+        filter: blur(2px); }
+@-webkit-keyframes animatedx6 {
+  from {
+    left: -400px; }
+  to {
+    left: 120%; } }
+@keyframes animatedx6 {
+  from {
+    left: -400px; }
   to {
     left: 120%; } }
       .container main .container-users-about-us h2 {
@@ -530,9 +616,14 @@ ol, ul, li, a {
         -webkit-margin-before: 0px;
         margin-block-start: 0px;
         -webkit-margin-after: 0px;
-        margin-block-end: 0px; }
+        margin-block-end: 0px;
+        position: relative;
+        z-index: 1; }
       .container main .container-users-about-us .wrapper {
         max-width: 541px; }
+        @media screen and (max-width: 575.98px) {
+          .container main .container-users-about-us .wrapper {
+            width: 95vw; } }
         .container main .container-users-about-us .wrapper .icon {
           display: inline-block;
           width: 1em;
@@ -587,6 +678,12 @@ ol, ul, li, a {
             .container main .container-users-about-us .wrapper .news-slider__item.swiper-slide-next {
               opacity: 0;
               pointer-events: auto; }
+          @media screen and (max-width: 575.98px) {
+            .container main .container-users-about-us .wrapper .news-slider__item {
+              width: 90vw;
+              -ms-flex-negative: 0;
+              flex-shrink: 0;
+              height: auto; } }
           .container main .container-users-about-us .wrapper .news-slider__ctr {
             position: relative;
             z-index: 12; }
@@ -658,7 +755,7 @@ ol, ul, li, a {
               background: #26C296; }
               @media screen and (max-width: 576px) {
                 .container main .container-users-about-us .wrapper .news-slider__pagination .swiper-pagination-bullet-active {
-                  width: 70px; } }
+                  width: 20px; } }
         .container main .container-users-about-us .wrapper .news__item {
           color: #303030;
           border-radius: 10px;
@@ -771,10 +868,6 @@ ol, ul, li, a {
           transform-origin: 0% 0%;
           /*box-shadow: 0px 13.8611px 55.4444px #F2F5FA;*/
           border-radius: 8.31667px; }
-          @media screen and (max-width: 576px) {
-            .container main .container-users-about-us .wrapper .news__img {
-              height: 180px;
-              margin-top: 20px; } }
           .container main .container-users-about-us .wrapper .news__img img {
             -webkit-transform: scale(1.5);
             -ms-transform: scale(1.5);

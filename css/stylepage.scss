@@ -347,6 +347,9 @@ ol, ul, li, a{
     max-height: 100px;
     padding: 0px 103.96px 0px 101.19px;
     @include flex();
+    @media screen and (max-width: 997.98px) {
+      padding: 0px 2vw;
+    }
     nav{
       @include flex();
       @include justify-content-between();
@@ -369,6 +372,9 @@ ol, ul, li, a{
           display: inherit;
           @include justify-content-center();
           @include align-items-center();
+          @media screen and (max-width: 575.98px) {
+            display: none !important;
+          }
           a{
             font-family: "Gilroy", sans-serif;
             font-style: normal;
@@ -380,6 +386,9 @@ ol, ul, li, a{
         }
         li:nth-child(2){
           margin: 0px 27px;
+          @media screen and (max-width: 997.98px) {
+            margin: 0px 2vw;
+          }
         }
         li:nth-child(4){
           margin-left: 27px;
@@ -395,6 +404,9 @@ ol, ul, li, a{
           -webkit-transition: 1.2s;
           -o-transition: 1.2s;
           transition: 1.2s;
+          @media screen and (max-width: 575.98px) {
+            display: block !important;
+          }
           a{
             color: $bluecolor;
             font-family: "Gilroy", sans-serif;
@@ -429,12 +441,23 @@ ol, ul, li, a{
   }
   main{
     padding: 0px 103.96px 0px 101.19px;
+    @media screen and (max-width: 997.98px) {
+      padding: 0px 2vw;
+    }
     .container-main-info{
       @include flex();
       @include justify-content-between();
       @include flex-rowdirection();
       margin-top: 64.56px;
       margin-bottom: 136.26px;
+      @media screen and (max-width: 997.98px) {
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+        .container-img-info{
+          width: 20vw;
+          margin-left: 2vw !important;
+        }
+      }
       .container-content-info, .container-img-info{
         max-height: 458.74px;
       }
@@ -618,6 +641,7 @@ ol, ul, li, a{
         border-radius: 50%;
         width: 60px;
         height: auto;
+        filter: blur(2px);
 
         @-webkit-keyframes animatedx1 {
           from { left: -400px;}
@@ -640,6 +664,7 @@ ol, ul, li, a{
         border-radius: 50%;
         width: 80px;
         height: auto;
+        filter: blur(2px);
 
         @-webkit-keyframes animatedx2 {
           from {left: -350px;}
@@ -660,6 +685,7 @@ ol, ul, li, a{
         border-radius: 50%;
         width: 50px;
         height: auto;
+        filter: blur(2px);
 
         @-webkit-keyframes animatedx3 {
           from {left: -300px;}
@@ -680,6 +706,7 @@ ol, ul, li, a{
         border-radius: 50%;
         width: 40px;
         height: auto;
+        filter: blur(2px);
 
         @-webkit-keyframes animatedx3 {
           from {left: -250px;}
@@ -688,6 +715,69 @@ ol, ul, li, a{
 
         @keyframes animatedx3 {
           from {left: -250px;}
+          to {left:120%;}
+        }
+      }
+      .x5 {
+        position: absolute;
+        top:200px;
+        -webkit-animation: animatedx3 22s linear infinite;
+        animation: animatedx3 22s linear infinite;
+        border: 2px solid $orengecolor;
+        border-radius: 50%;
+        width: 50px;
+        height: auto;
+        filter: blur(2px);
+
+        @-webkit-keyframes animatedx5 {
+          from {left: -100px;}
+          to {left:120%;}
+        }
+
+        @keyframes animatedx5 {
+          from {left: -100px;}
+          to {left:120%;}
+        }
+      }
+      .x6 {
+        position: absolute;
+        top:140px;
+        -webkit-animation: animatedx7 30s linear infinite;
+        animation: animatedx7 30s linear infinite;
+        border: 2px solid #F5AC18;
+        border-radius: 50%;
+        width: 50px;
+        height: auto;
+        filter: blur(2px);
+
+        @-webkit-keyframes animatedx7 {
+          from {left: -200px;}
+          to {left:120%;}
+        }
+
+        @keyframes animatedx7 {
+          from {left: -200px;}
+          to {left:120%;}
+        }
+      }
+      .x7 {
+        position: absolute;
+        top:300px;
+        -webkit-animation: animatedx6 30s linear infinite;
+        animation: animatedx6 30s linear infinite;
+        border: 2px solid #F5AC18;
+        border-radius: 50%;
+        width: 50px;
+        height: auto;
+        filter: blur(2px);
+
+        @-webkit-keyframes animatedx6 {
+          from {left: -400px;}
+          to {left:120%;}
+        }
+
+        @keyframes animatedx6 {
+          from {left: -400px;}
           to {left:120%;}
         }
       }
@@ -705,9 +795,14 @@ ol, ul, li, a{
         margin-block-start: 0px;
         -webkit-margin-after: 0px;
         margin-block-end: 0px;
+        position: relative;
+        z-index: 1;
       }
       .wrapper{
         max-width: 541px;
+        @media screen and (max-width: 575.98px) {
+          width: 95vw;
+        }
         .icon {
           display: inline-block;
           width: 1em;
@@ -770,6 +865,14 @@ ol, ul, li, a{
               &.swiper-slide-next {
                 opacity: 0;
                 pointer-events: auto;
+              }
+            }
+            @media screen and (max-width: 575.98px) {
+              &__item {
+                width: 90vw;
+                -ms-flex-negative: 0;
+                flex-shrink: 0;
+                height: auto;
               }
             }
 
@@ -859,7 +962,7 @@ ol, ul, li, a{
                 background: #26C296;
 
                 @media screen and (max-width: 576px) {
-                  width: 70px;
+                  width: 20px;
                 }
 
               }
@@ -993,11 +1096,6 @@ ol, ul, li, a{
             transform-origin: 0% 0%;
             /*box-shadow: 0px 13.8611px 55.4444px #F2F5FA;*/
             border-radius: 8.31667px;
-
-            @media screen and (max-width: 576px) {
-              height: 180px;
-              margin-top: 20px;
-            }
 
             img {
               -webkit-transform: scale(1.5);
