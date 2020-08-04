@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95e93d6f-7e2f-4079-b224-eb04abc424c9" name="Default Changelist" comment="" />
+    <list default="true" id="95e93d6f-7e2f-4079-b224-eb04abc424c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylepage.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596447534156</updated>
       <workItem from="1596447535670" duration="39517000" />
-      <workItem from="1596531726729" duration="1880000" />
+      <workItem from="1596531726729" duration="2630000" />
     </task>
     <task id="LOCAL-00001" summary="add finale adaptive for mobiles">
       <created>1596533620082</created>
@@ -58,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596533620082</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add prefix">
+      <created>1596533899651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596533899651</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,25 +76,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add finale adaptive for mobiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add finale adaptive for mobiles" />
+    <MESSAGE value="add prefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="add prefix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596494494965">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="414" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040/-1440.0.1440.860@0.40.1920.1040" timestamp="1596494494965" />
-    <state x="585" y="253" key="CommitChangelistDialog2" timestamp="1596533613566">
+    <state x="585" y="253" key="CommitChangelistDialog2" timestamp="1596533894154">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="585" y="253" key="CommitChangelistDialog2/0.40.1920.1040/-1440.0.1440.860@0.40.1920.1040" timestamp="1596533613566" />
+    <state x="585" y="253" key="CommitChangelistDialog2/0.40.1920.1040/-1440.0.1440.860@0.40.1920.1040" timestamp="1596533894154" />
     <state x="594" y="338" key="EditFileWatcherDialog" timestamp="1596447600772">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="594" y="338" key="EditFileWatcherDialog/0.40.1920.1040/-1440.0.1440.860@0.40.1920.1040" timestamp="1596447600772" />
-    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1596533625741">
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1596533906104">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040/-1440.0.1440.860@0.40.1920.1040" timestamp="1596533625741" />
+    <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040/-1440.0.1440.860@0.40.1920.1040" timestamp="1596533906104" />
     <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1596454914198">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

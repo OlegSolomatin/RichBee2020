@@ -1287,6 +1287,7 @@ ol, ul, li, a{
         details summary:before {
           content: ""; /* новая иконка */
         }
+        details summary { list-style-type: none; } /* Firefox */
       }
     }
   }

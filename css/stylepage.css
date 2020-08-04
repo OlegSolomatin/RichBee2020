@@ -981,7 +981,8 @@ ol, ul, li, a {
         flex-direction: column;
         -webkit-box-align: start;
         -ms-flex-align: start;
-        align-items: flex-start; }
+        align-items: flex-start;
+        /* Firefox */ }
         .container main .contact-info section details:focus {
           outline: none; }
         .container main .contact-info section details summary {
@@ -1041,6 +1042,8 @@ ol, ul, li, a {
         .container main .contact-info section details summary:before {
           content: "";
           /* новая иконка */ }
+        .container main .contact-info section details summary {
+          list-style-type: none; }
   .container footer {
     display: -webkit-box;
     display: -ms-flexbox;
